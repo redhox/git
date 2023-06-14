@@ -2,11 +2,16 @@
 
 <h2> en local </h2>
 
+geré le nom de la branche principale pour git
+
+    git config --global init.defaultBranch main
+
+
 crée un repertoire de projet local
 
     git init .
 
-recuperé un projet depuis un repertoire github ou autre
+ou recuperé un projet depuis un repertoire github ou autre
 
         git clone https://github.com/redhox/git.git
 
@@ -17,6 +22,12 @@ ajoutée des fichier ou dossier a commit au projet
 ou tout le dossier
 
     git add .
+
+pour ignoré un fichier ou un dossier il nous faut un fichier  .gitignore
+dans le quelle je nomme les dossier et fichier a ignoré 
+        
+        dossier_ignoré/
+        fichier_igionré
 
 commit au projet 
 
