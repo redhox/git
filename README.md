@@ -4,6 +4,11 @@ crée un repertoire de projet local
 
     git init .
 
+recuperé un projet depuis un repertoire github ou autre
+
+        git clone https://github.com/redhox/git.git
+
+
 ajoutée des fichier ou dossier a commit au projet
 
     git add nom fichier
@@ -52,6 +57,28 @@ commit au projet
       
       git branch -d 
       
+  visualisation grafique du projet
+  
+    git log --graph --oneline --decorate --all
+    
+ connecté sont git a sont compte github , installer 'gh' , executé la comande puis suivez les instruction
+        
+        gh auth login
+   
+    
+  pour connecté le projet a un repertoire github
+  
+        git remote add origin https://github.com/nom-d'utilisateur/nom-du-repo.git
+envoyer les commit sur le repertoire en ligne 
+
+        git push origin main
+recuperé les modifocation fait au projet en ligne 
+
+        git pull origin main
+        
+ 
+        
+
      
       
   
