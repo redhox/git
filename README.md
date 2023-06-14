@@ -1,5 +1,7 @@
 # git
 
+<h2> en local </h2>
+
 crée un repertoire de projet local
 
     git init .
