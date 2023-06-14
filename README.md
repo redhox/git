@@ -35,33 +35,35 @@ commit au projet
  
     git checkout [code du commit]
  
+ <h2> gestion des branch </h2>
  
- crée une nouvelle branche 
+ crée une nouvelle branch
  
     git branch
     
- changer de branche active
+ changer de branch active
     
     git checkout
     
- crée une brache et en faire la brache active en meme temps
+ crée une branch et en faire la branch active en meme temps
  
-        git checkout -b ma-nouvelle-branche
+        git checkout -b ma-nouvelle-branch
     
  état actuel du projet 
  
     git checkout main
     
-  merge des branche
+  merge des branch
       
-      git merge nom_de_la_branche_a_merge
-  suprimer une branche
+      git merge nom_de_la_branch_a_merge
+  suprimer une branch
       
       git branch -d 
-      
-  visualisation grafique du projet
   
-    git log --graph --oneline --decorate --all
+
+    
+  <h2> connection avec github </h2>
+
     
  connecté sont git a sont compte github , installer 'gh' , executé la comande puis suivez les instruction
         
@@ -78,8 +80,11 @@ recuperé les modifocation fait au projet en ligne
 
         git pull origin main
         
- 
-        
+   <h2> bonnus pour la route </h2>
+
+visualisation grafique du projet
+  
+    git log --graph --oneline --decorate --all
 
      
       
