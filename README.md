@@ -37,12 +37,21 @@ commit au projet
     
     git checkout
     
+ crée une brache et en faire la brache active en meme temps
+ 
+        git checkout -b ma-nouvelle-branche
+    
  état actuel du projet 
  
     git checkout main
     
   merge des branche
       
-      git merge
+      git merge nom_de_la_branche_a_merge
+  suprimer une branche
+      
+      git branch -d 
+      
+     
       
   
