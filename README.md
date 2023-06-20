@@ -6,6 +6,12 @@ geré le nom de la branche principale pour git
 
     git config --global init.defaultBranch main
 
+.
+ 
+    
+    git config --global user.name "VotreNom"
+    git config --global user.email "votre@adresse.email"
+
 
 crée un repertoire de projet local
 
