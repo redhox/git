@@ -6,7 +6,7 @@ geré le nom de la branche principale pour git
 
     git config --global init.defaultBranch main
 
-.
+crée un compte local pour son git
  
     
     git config --global user.name "VotreNom"
