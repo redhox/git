@@ -60,7 +60,7 @@ commit au projet
     
  changer de branch active
     
-    git checkout
+    git checkout nom-de-la-branch
     
  crée une branch et en faire la branch active en meme temps
  
@@ -75,7 +75,7 @@ commit au projet
       git merge nom_de_la_branch_a_merge
   suprimer une branch
       
-      git branch -d 
+      git branch -d nom-de-la-branch
   
 
     
